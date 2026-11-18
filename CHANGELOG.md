@@ -1,5 +1,31 @@
 # Changelog
 
+## [2.9.0](https://github.com/google/adk-go/compare/v2.8.0...v2.9.0) (2026-11-18)
+
+
+### Features
+
+* **tool/skilltoolset/skill/gcsskill:** add Cloud Storage skill source ([#2384](https://github.com/google/adk-go/issues/2384)) ([012af4d](https://github.com/google/adk-go/commit/012af4d94fb0ad67713180a4233d63c5fd520d1c))
+* **tool/skilltoolset/skill:** let a file-system listing skip invalid skills ([#2390](https://github.com/google/adk-go/issues/2390)) ([0b6973c](https://github.com/google/adk-go/commit/0b6973ca52816e887f0f4a5e3adc7060996deb2f))
+* **vertexairagtool:** expose RAG retrieval configuration ([#2324](https://github.com/google/adk-go/issues/2324)) ([b289e33](https://github.com/google/adk-go/commit/b289e334241085f59f76b096e8f0682f16f6e76b))
+
+
+### Bug Fixes
+
+* **adka2a:** order task history chronologically for input-required tasks ([#2407](https://github.com/google/adk-go/issues/2407)) ([4a56d9f](https://github.com/google/adk-go/commit/4a56d9f2addcf9896a4104538119f561c59eedeb))
+* **live:** send tracking headers on live connections ([#2369](https://github.com/google/adk-go/issues/2369)) ([126ad4e](https://github.com/google/adk-go/commit/126ad4e816ca9ef1b6deb53adb766f30cb7c6303)), closes [#2365](https://github.com/google/adk-go/issues/2365)
+* **llminternal:** accept Unicode identifier characters in instruction state names ([#2334](https://github.com/google/adk-go/issues/2334)) ([534f30b](https://github.com/google/adk-go/commit/534f30b654787ac6fff386adac223be83c686eca))
+* **loggingplugin:** truncate text by character, not byte ([#2342](https://github.com/google/adk-go/issues/2342)) ([b388580](https://github.com/google/adk-go/commit/b388580ea8fd9562c8311a64bb7a61c8f67bcb85)), closes [#2341](https://github.com/google/adk-go/issues/2341)
+* **mcptoolset:** keep the Config.Auth credential on the endpoint's origin across redirects ([#1986](https://github.com/google/adk-go/issues/1986)) ([b9a5db9](https://github.com/google/adk-go/commit/b9a5db9c924cdf8220d09059814172f43ce4db01))
+* **runner:** skip nil parts in response events and input blob extraction ([#2322](https://github.com/google/adk-go/issues/2322)) ([e374e9e](https://github.com/google/adk-go/commit/e374e9e5f4468adcbd3804a24f967fa4b4a498a8))
+* **session:** apply persistent changes only after database commit ([#2305](https://github.com/google/adk-go/issues/2305)) ([f887982](https://github.com/google/adk-go/commit/f8879822a83fdbe07ef323e7d6eeb1de0f31637d))
+* **telemetry:** leave no span processor running when New fails ([#2318](https://github.com/google/adk-go/issues/2318)) ([aacc2fa](https://github.com/google/adk-go/commit/aacc2fa46f06651dcf561eed94123f9d460a96dd)), closes [#2317](https://github.com/google/adk-go/issues/2317)
+
+
+### Documentation
+
+* where the quota project header comes from, the token endpoint a certificate moves user credentials to, the per-process certificate source cache, and the SecureConnect helper among the calls that ignore cancellation. Tests: debug-log and span pins, the token error type, an explicit-scope ADC row, and atomics for handler-written values. ([0cc3907](https://github.com/google/adk-go/commit/0cc3907bcf3af14264b96645f6f021b033a6752a))
+
 ## [2.8.0](https://github.com/google/adk-go/compare/v2.7.1...v2.8.0) (2026-11-16)
 
 
